@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Tin Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            margin: 20px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        audio, video {
+            margin: 10px 0;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Hiển thị thông tin cá nhân -->
+    <h1>Thông Tin Cá Nhân</h1>
+    <p>Hoàng Hữu Chính</p>
+    <p>K215480106007</p>
+
+
+    <!-- Hiển thị ảnh cá nhân -->
+    <img src="image/tom.jpg" alt="Ảnh cá nhân">
+
+    <!-- Hiển thị file MP3 -->
+    <h2>MP3</h2>
+    <audio controls>
+        <source src="mp3/nhac1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hiển thị video MP4 -->
+    <h2>MP4</h2>
+    <video controls>
+        <source src="mp4/vdtest.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ phát video.
+    </video>
+</div>
+</body>
+</html>
